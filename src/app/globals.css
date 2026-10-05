@@ -20,10 +20,6 @@ html {
   scroll-behavior: smooth;
 }
 
-section[id] {
-  scroll-margin-top: 120px;
-}
-
 body {
   margin: 0;
   background: var(--bg);
@@ -324,7 +320,7 @@ img {
 .marquee {
   width: 100%;
   overflow: hidden;
-  background: #080b07;
+  background: #11160d;
   border-top: 1px solid rgba(183, 200, 106, 0.15);
   border-bottom: 1px solid rgba(183, 200, 106, 0.15);
   color: var(--green);
@@ -383,7 +379,6 @@ img {
 
 .about-section,
 .services-section,
-.why-section,
 .pricing-section,
 .testimonial-section {
   max-width: 1250px;
@@ -567,11 +562,22 @@ img {
 
 /* ================= WHY ================= */
 
-.why-section {
+.why-section{
+  padding: 70px 50px;
+  background: #11160d;
+}
+.why-section.feature{
+  background: #080b07;
+}
+
+.why-section .why-section-column,
+.why-section .why-feature-column {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
   gap: 60px;
   align-items: center;
+  max-width: 1250px;
+  margin: auto;
 }
 
 .why-image {
@@ -1430,7 +1436,7 @@ img {
 
 /* ================= UTILITY CLASSES ================= */
 .train-text {
-  transform: translateX(60px);
+  transform: translateX(35px);
   display: inline-block;
 }
 
@@ -1440,7 +1446,7 @@ img {
 }
 
 .the-text {
-  transform: translateX(65px);
+  transform: translateX(40px);
   display: inline-block;
 }
 

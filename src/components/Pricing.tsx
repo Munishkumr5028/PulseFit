@@ -66,7 +66,7 @@ export default function Pricing() {
   return (
     <section className="pricing-section" id="pricing">
       <div className="section-heading pricing-heading">
-        <div>
+        <div style={{textAlign: "center"}}>
           <h2>
             Choose your
             <span> level.</span>

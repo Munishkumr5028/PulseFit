@@ -133,24 +133,6 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* ================= CTA ================= */}
-            <section className="cta-section">
-                <div>
-                    <h2>
-                        Ready to build your
-                        <span> stronger self?</span>
-                    </h2>
-
-                    <p>
-                        Your transformation starts with one decision.
-                    </p>
-
-                    <a href="#pricing" className="primary-btn">
-                        Join MuscleHub
-                    </a>
-                </div>
-            </section>
-
             <Contact />
             <Footer />
         </main>

@@ -14,7 +14,7 @@ export default function Contact() {
           Email: hello@musclehub.com
         </p>
         <a href="mailto:hello@musclehub.com" className="primary-btn">
-          Email Us
+          Contact Us
         </a>
       </div>
     </section>
